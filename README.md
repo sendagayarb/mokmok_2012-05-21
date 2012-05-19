@@ -1,4 +1,4 @@
-mokmok_yyyy-mm-dd
+mokmok_2012-05-21
 =================
 
 ![sendagaya.rb logo](http://ppworks.info/images/sendagayarb100x100.png)
@@ -8,7 +8,7 @@ mokmok_yyyy-mm-dd
 
 # 告知
 * [facebookグループ](https://www.facebook.com/groups/132324356892674)
-* [Sendagaya.rb #](http://www.zusaar.com/event/)
+* [Sendagaya.rb #4](http://www.zusaar.com/event/293002)
 
 # 流れ
 * 19:00 Heroku Dev Center読書会
