@@ -19,23 +19,51 @@ iOSアプリ作っていて、web api使う際の認証どうしようと悩ん�
 
 
 ## もくもくの記録
+---
+スマートフォン ネイティブアプリからの OAuth 認証についての悩み
+
+iOSアプリを開発していて、自分のweb apiにアクセスする際の認証・認可の方法を考えている。
+
+
+# 解決策
+
+## 1. web api 認証にOAuth providerのid, tokenを使いまわす
+
+* token はしっかり守っていないといけないのでは？
+* 本来、OAuth provider 認可に利用するtokenを自分のweb api認証・認可に使いまわすのはだめじゃない？
+
+## 2. web api 認証にサイト独自tokenを利用する
+
+### どのように行うか
+
+1. web view を用いて、そこでOAuth providerへ認証・認可を求めるフローをはじめる
+1. browser を裏で開く
+1. 第三の案は以下
+
+### facebookのパターン
+
+1. facebook sdkで認証終了後、web apiにtokenを渡し、web apiからfacebook apiを /meを叩く。
+1. その結果のfacebook uidと照らし合わしユーザーを確認。その後web apiでtokenを発行し、以後そのtokenでweb apiとやりとりする。
+
 ### 今日できたこと
-* まだない
+* 議論出来た
 
 ### 今日学んだこと
-* まだない
+* OAuthむずい
 
 ### 今日ハマったこと
-* まだない
+* OAuth
 
 ## 個人のKPT
 ###Keep よかったー
 * 時間意識してる
+* 濃ゆい議論出来た
 
 ###Problem ダメだったー
 * 毎回やることぶれてる
 
 ###Try 改善・挑戦するー
 * 毎回違うことやって自分探し
-* ブログにアウトプット
+* 結果出す
+
 
