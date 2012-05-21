@@ -10,7 +10,7 @@
 * rootを自分の自己紹介ページにも反映してみます。
 
 ### 今日ハマったこと
-* git -mとgit -amの違い
+* git commt -mとgit commit -amの違い
 
 ## 個人のKPT
 ###Keep よかったー
