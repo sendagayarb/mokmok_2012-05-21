@@ -6,11 +6,12 @@
 * コレやります。
 
 ### 今日学んだこと
-* コレやります。
+* generatorは内部的にこれを使って実現されてる。
+* https://github.com/wycats/thor
+* https://github.com/wycats/thor/wiki
 
 ### 今日ハマったこと
-* コレやります。
- $ pwd
+* gitのリポジトリのログが消えていた。-fをすると完全にpushした状態になってしまう。
 
 ## 個人のKPT
 ###Keep よかったー
