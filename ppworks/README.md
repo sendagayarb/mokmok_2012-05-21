@@ -6,6 +6,7 @@ http://ppworks.info を見て下さいお願いします。
 iOSアプリ作っていて、web api使う際の認証どうしようと悩んでおります。OAuthの理解を深めそのあたりの指針を定めたいです。
 
 * OAuthについて理解を深める
+  * [認証と認可の違い](http://www.itmedia.co.jp/enterprise/articles/0804/22/news044.html)
   * [OAuth 2.0 Implicit Flowをユーザー認証に利用する際のリスクと対策方法について](http://d.hatena.ne.jp/ritou/20120206/1328484575)
   * [非技術者のためのOAuth認証(?)とOpenIDの違い入門](http://www.sakimura.org/2011/05/1087/)
 * 認証・認可を意識したiosからのweb api利用について考える
