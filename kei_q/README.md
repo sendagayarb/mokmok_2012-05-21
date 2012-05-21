@@ -39,6 +39,7 @@
 - twitterに投げっぱなしじゃなくて、あとでtogetterとかにまとめたい
 - post数多くなったので、twitter別アカウント作成したい
 - どうせならある程度format固めて自動的にまとめるツール作りたい
+- pdfのファイル名から内容がわかりにくくて、pdf探すのに手間取った
 
 ###Try 改善・挑戦するー
 
@@ -47,6 +48,8 @@
  - これまでの成果をまとめる
 * 自己紹介の時間を計る
  - 短かくなったか確認するには計測するのが良いかと
+- downloadしたファイル名がわかりにくいので、わかりやすいタイトルに置き換える
+ - download元のlink textがそれっぽいので置換するコード書いた
 
 ## 参考
 - https://developer.apple.com/jp/devcenter/ios/library/documentation/Xcode/Conceptual/ios_development_workflow/#000-Introduction/introduction.html
